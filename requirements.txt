@@ -8,3 +8,4 @@ fmpsdk
 sklearn
 nltk
 numpy
+scikit-learn
