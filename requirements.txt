@@ -5,3 +5,4 @@ python-dotenv
 dash_bootstrap_components
 dash-daq
 fmpsdk
+sklearn
