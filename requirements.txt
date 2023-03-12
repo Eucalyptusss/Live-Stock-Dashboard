@@ -9,3 +9,4 @@ sklearn
 nltk
 numpy
 scikit-learn
+dash_extensions
