@@ -6,3 +6,5 @@ dash_bootstrap_components
 dash-daq
 fmpsdk
 sklearn
+nltk
+numpy
