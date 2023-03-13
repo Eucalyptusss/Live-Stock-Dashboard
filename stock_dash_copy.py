@@ -948,7 +948,7 @@ server = app.server
 app.title = 'My App'
 
 #############################################
-#------------BACK END------------------------
+#------------BACK END------------------------Mar 12 05:58:15 PM  TypeError: string indices must be integers
 end = datetime.now()
 start = end - timedelta(days=100)
 stock_sym = 'AAPL'
@@ -957,8 +957,8 @@ stock_sym = 'AAPL'
 #I will use the list available_stocks to confirm that a user input is valid
 available_stocks_dict = fmpsdk.available_traded_list(apikey)
 available_stocks = []
-for ticker in available_stocks_dict:
-    available_stocks.append(ticker['symbol'])
+for available_stock in available_stocks_dict:
+    available_stocks.append(available_stock['symbol'])
 
 
 
